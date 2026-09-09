@@ -1,0 +1,3 @@
+[submodule "firmware/esp_mosaico/components/oft_openh264/vendor"]
+	path = firmware/esp_mosaico/components/oft_openh264/vendor
+	url = https://github.com/cisco/openh264.git

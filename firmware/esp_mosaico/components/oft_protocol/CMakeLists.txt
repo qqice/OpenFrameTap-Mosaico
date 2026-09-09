@@ -1,0 +1,1 @@
+idf_component_register(SRCS "oft_duml.c" "oft_wifi_wire.c" "oft_pocket3.c" "oft_capture.c" "oft_settings.c" "oft_control.c" "oft_orientation.c" "oft_head_target.c" "oft_head_servo.c" "oft_haptic.c" "oft_media.c" INCLUDE_DIRS "include")

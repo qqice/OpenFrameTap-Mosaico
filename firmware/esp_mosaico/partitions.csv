@@ -1,0 +1,9 @@
+# Preserve the unit's MD5-validated factory layout (table at 0x9000).
+# Application-only flashing writes factory at 0x20000; other regions untouched.
+# Name, Type, SubType, Offset, Size, Flags
+nvs,      data, nvs,     0xa000,   0x6000,
+otadata,  data, ota,     0x10000,  0x2000,
+phy_init, data, phy,     0x12000,  0x1000,
+factory,  app,  factory, 0x20000,  0x680000,
+ui_apps,  data, 0x41,    0x6a0000, 0x320000,
+system,   data, 0x83,    0x9c0000, 0x2ee000,

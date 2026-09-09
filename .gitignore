@@ -1,0 +1,21 @@
+# Generated builds, dependencies and local/private evidence
+artifacts/
+**/build/
+**/managed_components/
+**/sdkconfig
+**/sdkconfig.old
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.log
+*.pcap
+*.pcapng
+*.btsnoop
+*.bin
+*.elf
+*.map
+.DS_Store
+Thumbs.db
